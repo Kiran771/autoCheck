@@ -1,0 +1,18 @@
+[project]
+name = "summerclassnlp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.0"
+dependencies = [
+    "fastapi>=0.116.1",
+    "faster-whisper>=1.2.0",
+    "jinja2>=3.1.6",
+    "num2words>=0.5.14",
+    "numpy==2.0.0",
+    "openai-whisper>=20250625",
+    "pillow>=11.3.0",
+    "python-multipart>=0.0.20",
+    "spacy>=3.8.7",
+    "word2number>=1.1",
+]

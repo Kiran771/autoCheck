@@ -1,0 +1,89 @@
+
+*{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  background-color: white;
+  font-family: 'Roboto', sans-serif;;
+  text-align: center; 
+
+}
+
+.title{
+  width: 100%;
+  height: 60px;
+  background-color: #415b88;
+  color: white; 
+  line-height: 35px; 
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.microphone{
+  width:100%;
+  height:300px;
+  display: flex;
+  justify-content:center; 
+}
+
+#micBtn {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: #121010;
+  border: none;
+  cursor: pointer;
+  font-size: 40px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: all 0.2s ease;
+  align-self: center;
+  margin-right:13px;
+}
+
+#micBtn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+.mic-controls {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+
+}
+
+.mic-controls button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: all 0.2s ease;
+}
+
+.mic-controls button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+#statusText{
+  text-align: center ;
+  font-size:18px;
+  margin-left:5px;
+  margin-top:30px
+}
+
+#checkImage {
+  max-width: 500px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}

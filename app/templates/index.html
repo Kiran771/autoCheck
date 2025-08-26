@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #cfc2dd, #415b88);
+            color: white;
+        }
+
+        h1 {
+            font-size: 3em;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .loading-container {
+            width: 80%;
+            max-width: 600px;
+            height: 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            overflow: hidden;
+            position: fixed;
+            bottom: 50px;
+        }
+
+
+        .loading-bar {
+            height: 100%;
+            width: 0;
+            background-color: #ffffff;
+            animation: load 4s infinite;
+        }
+
+        @keyframes load {
+            0% { width: 0; }
+            50% { width: 100%; }
+            100% { width: 0; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Smart Check Auto-Fill System</h1>
+
+    <div class="loading-container">
+        <div class="loading-bar"></div>
+    </div>
+    <script>
+      
+      setTimeout(() => {
+          window.location.href = "home.html";
+      }, 3600); 
+  </script>
+</body>
+</html>
